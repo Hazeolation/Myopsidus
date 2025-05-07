@@ -115,6 +115,9 @@ If you run into problems or have questions, open an [issue](https://github.com/H
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+It also includes third-party libraries licensed under the Apache License 2.0.
+
+See the [LICENSE](LICENSE), [APACHE_LICENSE.txt](APACHE_LICENSE.txt), and [NOTICE](NOTICE) files for more details.
 
 ### What does this mean?
 
