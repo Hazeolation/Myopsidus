@@ -79,7 +79,7 @@ const getVersionDescription = (version) => {
             "* Revamped codebase for better maintainability.\n" +
             "* Fixed a typo in `/changelog`.\n" +
             "* Created a GitHub repository for the bot.\n" +
-            "\t* [GitHub Repository]()\n" + 
+            "\t* [GitHub Repository](https://github.com/Hazeolation/Myopsidus)\n" + 
             "\tIt is recommended to create an issue on GitHub if you encounter a bug.\n" +
             "\tIf you want to assist the development of the bot, you can also create a pull request.";
         default:
