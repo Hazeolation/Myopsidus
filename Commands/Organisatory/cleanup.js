@@ -42,6 +42,7 @@ const prepareChannel = async (channel) => {
     await message.react('❔');
     await message.react('❕');
     await message.react('❌');
+    await message.react('<:swag_turt:1238515638327050331>'); // Custom emoji in Myopsidus server
 
     unix += 86400;
     let message2 = await channel.send(`Tuesday, <t:${unix}:D>`);
@@ -49,6 +50,7 @@ const prepareChannel = async (channel) => {
     await message2.react('❔');
     await message2.react('❕');
     await message2.react('❌');
+    await message.react('<:swag_turt:1238515638327050331>');
 
     unix += 86400;
     let message3 = await channel.send(`Wednesday, <t:${unix}:D>`);
@@ -56,6 +58,7 @@ const prepareChannel = async (channel) => {
     await message3.react('❔');
     await message3.react('❕');
     await message3.react('❌');
+    await message.react('<:swag_turt:1238515638327050331>');
     
     unix += 86400;
     let message4 = await channel.send(`Thursday, <t:${unix}:D>`);
@@ -63,6 +66,7 @@ const prepareChannel = async (channel) => {
     await message4.react('❔');
     await message4.react('❕');
     await message4.react('❌');
+    await message.react('<:swag_turt:1238515638327050331>');
     
     unix += 86400;
     let message5 = await channel.send(`Friday, <t:${unix}:D>`);
@@ -70,6 +74,7 @@ const prepareChannel = async (channel) => {
     await message5.react('❔');
     await message5.react('❕');
     await message5.react('❌');
+    await message.react('<:swag_turt:1238515638327050331>');
 
     unix += 86400;
     let message6 = await channel.send(`Saturday, <t:${unix}:D>`);
@@ -77,6 +82,7 @@ const prepareChannel = async (channel) => {
     await message6.react('❔');
     await message6.react('❕');
     await message6.react('❌');
+    await message.react('<:swag_turt:1238515638327050331>');
     
     unix += 86400;
     let message7 = await channel.send(`Sunday, <t:${unix}:D>`);
@@ -84,6 +90,7 @@ const prepareChannel = async (channel) => {
     await message7.react('❔');
     await message7.react('❕');
     await message7.react('❌');
+    await message.react('<:swag_turt:1238515638327050331>');
 };
 
 export { cleanupCommand as default, prepareChannel };
