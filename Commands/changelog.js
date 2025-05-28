@@ -16,7 +16,8 @@ const changelogCommand = {
                     { name: 'Version 1.1.1', value: 'v1.1.1' },
                     { name: 'Version 1.1.2', value: 'v1.1.2' },
                     { name: 'Version 1.2.0', value: 'v1.2.0' },
-                    { name: 'Version 2.0.0', value: 'v2.0.0' }
+                    { name: 'Version 2.0.0', value: 'v2.0.0' },
+                    { name: 'Version 2.0.1', value: 'v2.0.1' }
                 )
                 .setRequired(true)
         ),
@@ -75,13 +76,17 @@ const getVersionDescription = (version) => {
             "* Fixed the music feature.\n" +
             "* Revamped code stuff for a potential future GitHub repository.\n"
         case "v2.0.0":
-            return "LATEST\n" +
-            "* Revamped codebase for better maintainability.\n" +
+            return "* Revamped codebase for better maintainability.\n" +
             "* Fixed a typo in `/changelog`.\n" +
             "* Created a GitHub repository for the bot.\n" +
             "\t* [GitHub Repository](https://github.com/Hazeolation/Myopsidus)\n" + 
             "\tIt is recommended to create an issue on GitHub if you encounter a bug.\n" +
             "\tIf you want to assist the development of the bot, you can also create a pull request.";
+        case "v2.0.1":
+            return "LATEST\n" +
+            "* Added new reaction to the `/cleanup` command.\n" +
+            "\t* The reaction is used when someone does not want to play Splatoon, but is down to play other games.\n" +
+            "* Updated NPM packages due to known vulnerabilities."
         default:
             return "You shouldn't be able to see this!";
     };
