@@ -17,7 +17,8 @@ const changelogCommand = {
                     { name: 'Version 1.1.2', value: 'v1.1.2' },
                     { name: 'Version 1.2.0', value: 'v1.2.0' },
                     { name: 'Version 2.0.0', value: 'v2.0.0' },
-                    { name: 'Version 2.0.1', value: 'v2.0.1' }
+                    { name: 'Version 2.0.1', value: 'v2.0.1' },
+                    { name: 'Version 2.0.2', value: 'v2.0.2' }
                 )
                 .setRequired(true)
         ),
@@ -83,10 +84,12 @@ const getVersionDescription = (version) => {
             "\tIt is recommended to create an issue on GitHub if you encounter a bug.\n" +
             "\tIf you want to assist the development of the bot, you can also create a pull request.";
         case "v2.0.1":
-            return "LATEST\n" +
-            "* Added new reaction to the `/cleanup` command.\n" +
+            return "* Added new reaction to the `/cleanup` command.\n" +
             "\t* The reaction is used when someone does not want to play Splatoon, but is down to play other games.\n" +
-            "* Updated NPM packages due to known vulnerabilities."
+            "* Updated NPM packages due to known vulnerabilities.";
+        case "v2.0.2":
+            return "LATEST - 2025-06-25\n" +
+            "* Fixed a bug where the bot would not properly add all reactions when executing the `/cleanup` command.";
         default:
             return "You shouldn't be able to see this!";
     };
